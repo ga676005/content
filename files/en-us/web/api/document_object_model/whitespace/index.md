@@ -171,7 +171,7 @@ This renders like so:
 
 #### Explanation
 
-We can summarize how the whitespace here is handled as follows (the may be some slight differences in exact behavior between browsers, but this basically works):
+We can summarize how the whitespace here is handled as follows (there may be some slight differences in exact behavior between browsers, but this basically works):
 
 1. Because we're inside a block formatting context, everything must be a block, so our 3 text nodes also become blocks, just like the 2 `<div>`s. Blocks occupy the full width available and are stacked on top of each other, which means that we end up with a layout composed of this list of blocks:
 
